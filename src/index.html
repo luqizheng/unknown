@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat Demo</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+
+</head>
+<body>
+
+<div id="loginPanel" class="container">
+    <form>
+        <div class="form-group">
+            <label for="useranme">UserName:</label>
+            <input type="email" class="form-control" placeholder="Email" ms-duplex="username">
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" placeholder="Password" ms-duplex="password">
+        </div>
+        <div class="form-group">
+            <input type="button" value="注册"/>
+            <input type="button" value="设置"/>
+        </div>
+        <button type="submit" class="btn btn-default" ms-click="login">Submit</button>
+    </form>
+</div>
+
+<script type="text/javascript" src="lib/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="lib/avalonjs-1.5.5.js"></script>
+<script type="text/javascript" src="lib/backbone-min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+</script>
+<script src="scripts/xmppClient.js"></script>
+
+
+</body>
+</html>
