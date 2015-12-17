@@ -3,17 +3,13 @@
   "version": "0.0.1",
   "main": "index.html",
   "window": {
+    "width":400,
+    "hight":100,
     "show": true,
     "show_in_taskbar": true,
     "toolbar": false,
     "position": "center",
-    "resizable": false,
-    "width":400,
-    "hight":300,
-    "min_width": 400,
-    "min_height": 300,
-    "max_width": 400,
-    "max_height": 300
+    "resizable": false
   },
   "dependencies": {
     "node-xmpp-client": "^3.0.0",

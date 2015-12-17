@@ -1,0 +1,12 @@
+.left-menu {
+    margin-left: -400px;
+    width: 200px;
+    float: left;
+    background-color: #000088;
+}
+
+.main {
+    float: left;
+    background-color:#269abc;
+    width:400px;
+}
